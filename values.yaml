@@ -92,7 +92,7 @@ elasticsearch:
 
 service:
   type: NodePort
-  externalPort: 30090
+  externalPort: 9000
   internalPort: 9000
   labels:
   annotations: {}
