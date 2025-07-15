@@ -476,7 +476,7 @@ persistence:
   ##   set, choosing the default provisioner.  (gp2 on AWS, standard on
   ##   GKE, AWS & OpenStack)
   ##
-  storageClass:
+  storageClass: ktc-nfs-client
   accessMode: ReadWriteOnce
   size: 5Gi
   uid: 1000
